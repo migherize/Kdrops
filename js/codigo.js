@@ -1,5 +1,5 @@
 contador = false;
-valido = [0,1,2,3,4,5];
+valido = [17039595,5202945,63232524,3768900,56790237,84623478];
 pagina = 0
 paginas = ["paginas/kdrops1.html","paginas/kdrops2.html","paginas/kdrops3.html","paginas/kdrops4.html","paginas/kdrops5.html","paginas/kdrops6.html"]
 
@@ -57,7 +57,7 @@ paginas = ["paginas/kdrops1.html","paginas/kdrops2.html","paginas/kdrops3.html",
 
  		for (var i = 0; i <= valido.length-1; i++) {
  			if (valido[i] == codigo){
- 				pagina = valido[i];
+ 				pagina = i;
  		  		codigo_valido = true;
  		 	}
  		}
