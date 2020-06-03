@@ -1,5 +1,5 @@
 contador = false;
-valido = [17039595,5202945,63232524,3768900,56790237,84623478];
+valido = ["17039595","05202945","63232524","03768900","56790237","84623478"];
 pagina = 0
 paginas = ["paginas/kdrops1.html","paginas/kdrops2.html","paginas/kdrops3.html","paginas/kdrops4.html","paginas/kdrops5.html","paginas/kdrops6.html"]
 
