@@ -33,7 +33,7 @@ paginas = ["paginas/kdrops1.html","paginas/kdrops2.html","paginas/kdrops3.html",
 
 	function Invalido(){
  		elemento = document.createElement("p"); // crea un elemento html
-		contenido = document.createTextNode("Codigo Invalido, verifique su codigo y si es correcto no usarlo por su seguridad."); // crea un texto para un elemento.
+		contenido = document.createTextNode("Codigo no existe. Consulte a su asesor de ventas."); // crea un texto para un elemento.
 		elemento.appendChild(contenido); // agrega un texto en un elemento.
 		elemento.setAttribute("class","help is-danger")
 		lugar = document.getElementById("mensaje"); // para agarrar un elemento del documento html
