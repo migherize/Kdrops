@@ -55,7 +55,7 @@ display: block;
     top:0;
     left: 200%;
     display: block;
-    height: 500px; /* tamano del slider altura*/
+    height: 400px; /* tamano del slider altura*/
 }
 
 .slider_banner .flecha-banner {
