@@ -12,6 +12,7 @@
         -moz-transform : scale(1.2);      /* Firefox */
         -webkit-transform : scale(1.2);   /* Chrome - Safari */
         -o-transform : scale(1.2);        /* Opera */
+        text-decoration: underline;
     }
 
 
@@ -79,3 +80,20 @@ display: block;
 }
 
 /* slider con javascript */
+
+.menu-list a:hover{
+    background-color: blue !important;
+}
+.content {
+    height: 120px;
+}
+.title.is-4 {
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}

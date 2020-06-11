@@ -8,12 +8,12 @@
 	<meta name="keywords" content="palabras claves para el buscador">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="icon" href="img/logo.jpg">
+	<link rel="icon" href="../img/logo.jpg">
 	<title>www.kdrosprooriginal.com</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"/>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
 
 </head>
 <body>
@@ -48,10 +48,10 @@
   	</div>
   	<div class="hero-body" style="padding-top: 100px;">
   	    
-  	    <div class="columns">
+  	     	    <div class="columns">
   			<div class="column is-flex is-horizontal-center" style="justify-content: center;">
 					  			<figure class="image is-centered is-256x256" style="vertical-align: center; margin-bottom: 30px;">
-  									<img class="image is-480x480 is-centered" style="height: 256px; width: 480px;" src="img/logo.jpg">
+  									<img class="image is-480x480 is-centered" style="height: 256px; width: 480px;" src="../img/logo.jpg">
 								</figure>
 
 			</div>
@@ -75,17 +75,17 @@
 	  			<section class="slider_banner is-centered">
 						<div class="banner" id="banner">
 
-							<img class="slide active d-block w-100" src="img/carrusel1.jpg" class="img-responsive" alt="First slide">
-							<img class="slide d-block w-100" src="img/carrusel2.jpg" class="img-responsive" alt="Second slide">
-							<img class="slide d-block w-100" src="img/carrusel3.jpg" class="img-responsive" alt="Tercer slide">
-							<img class="slide d-block w-100" src="img/carrusel4.jpg" class="img-responsive" alt="Quarter slide">
-							<img class="slide d-block w-100" src="img/carrusel5.jpg" class="img-responsive" alt="Quinter slide">
-							<img class="slide d-block w-100" src="img/carrusel6.jpg" class="img-responsive" alt="Sexter slide">
-							<img class="slide d-block w-100" src="img/carrusel7.jpg" class="img-responsive" alt="Sexter slide">
-							<img class="slide d-block w-100" src="img/carrusel8.jpg" class="img-responsive" alt="Sexter slide">
-							<img class="slide d-block w-100" src="img/carrusel9.jpg" class="img-responsive" alt="Sexter slide">
-							<img class="slide d-block w-100" src="img/carrusel10.jpg" class="img-responsive" alt="Sexter slide">
-							<img class="slide d-block w-100" src="img/carrusel11.jpg" class="img-responsive" alt="Sexter slide">
+							<img class="slide active d-block w-100" src="../img/carrusel1.jpg" class="img-responsive" alt="First slide">
+							<img class="slide d-block w-100" src="../img/carrusel2.jpg" class="img-responsive" alt="Second slide">
+							<img class="slide d-block w-100" src="../img/carrusel3.jpg" class="img-responsive" alt="Tercer slide">
+							<img class="slide d-block w-100" src="../img/carrusel4.jpg" class="img-responsive" alt="Quarter slide">
+							<img class="slide d-block w-100" src="../img/carrusel5.jpg" class="img-responsive" alt="Quinter slide">
+							<img class="slide d-block w-100" src="../img/carrusel6.jpg" class="img-responsive" alt="Sexter slide">
+							<img class="slide d-block w-100" src="../img/carrusel7.jpg" class="img-responsive" alt="Sexter slide">
+							<img class="slide d-block w-100" src="../img/carrusel8.jpg" class="img-responsive" alt="Sexter slide">
+							<img class="slide d-block w-100" src="../img/carrusel9.jpg" class="img-responsive" alt="Sexter slide">
+							<img class="slide d-block w-100" src="../img/carrusel10.jpg" class="img-responsive" alt="Sexter slide">
+							<img class="slide d-block w-100" src="../img/carrusel11.jpg" class="img-responsive" alt="Sexter slide">
 
 						</div>
 						
@@ -107,7 +107,7 @@
 	  		<div class="column is-2">
 	  			  	<div class="container" style="margin-bottom: 20px;">
 						<figure class="image is-128x128" style="vertical-align: center;">
-	  						<img src="img/logo.jpg">
+	  						<img src="../img/logo.jpg">
 						</figure>
 					</div>
 					<aside class="menu">
@@ -115,7 +115,7 @@
 					    General
 					  </p>
 					  <ul class="menu-list">
-					    <li><a href="index.html">Inicio</a></li>
+					    <li><a href="vendedor1.html">Inicio</a></li>
 					    <li><a onclick="bajar()">Contactanos</a></li>
 					  </ul>
 					  <p class="menu-label">
@@ -125,12 +125,12 @@
 					    <li>
 					      <a class="is-active">KDROPS</a>
 					      <ul>
-					        <li><a href="paginas/kdrops1.html">KDROPS CLASSIC</a></li>
-					        <li><a href="paginas/kdrops2.html">KDROPS GLUTEX</a></li>
-					        <li><a href="paginas/kdrops3.html">KDROPS BREAST</a></li>
-					         <li><a href="paginas/kdrops4.html">KDROPS SILVER</a></li>
-					        <li><a href="paginas/kdrops5.html">KDROPS BIOTIN</a></li>
-					        <li><a href="paginas/kdrops6.html">KDROPS MUSCLE</a></li>
+					        <li><a href="../paginas/kdrops1.html">KDROPS CLASSIC</a></li>
+					        <li><a href="../paginas/kdrops2.html">KDROPS GLUTEX</a></li>
+					        <li><a href="../paginas/kdrops3.html">KDROPS BREAST</a></li>
+					         <li><a href="../paginas/kdrops4.html">KDROPS SILVER</a></li>
+					        <li><a href="../paginas/kdrops5.html">KDROPS BIOTIN</a></li>
+					        <li><a href="../paginas/kdrops6.html">KDROPS MUSCLE</a></li>
 					      </ul>
 					    </li>
 					  </ul>
@@ -144,7 +144,7 @@
 				  		<div class="card zoom">
 						  <div class="card-image">
 						    <figure class="image is-4by3">
-						      <img src="img/kdrops1.png" alt="Placeholder image">
+						      <img src="../img/kdrops1.png" alt="Placeholder image">
 						    </figure>
 						  </div>
 						  <div class="card-content">
@@ -153,7 +153,7 @@
 						    <div class="content">
 						      Potente quemador de grasa localizada que actúa sobre la <strong> lipolisis celular.</strong>
 						    </div>
-						    <a href="paginas/kdrops1.html" style="color: blue; float: right;"> <span>Continuar Leyendo>>> </span></a>
+						    <a href="../paginas/kdrops1.html" style="color: blue; float: right;"> <span>Continuar Leyendo>>> </span></a>
 						  </div>
 						</div>
 
@@ -163,7 +163,7 @@
 				  		<div class="card zoom">
 						  <div class="card-image">
 						    <figure class="image is-4by3">
-						      <img src="img/kdrops2.png" alt="Placeholder image">
+						      <img src="../img/kdrops2.png" alt="Placeholder image">
 						    </figure>
 						  </div>
 						  <div class="card-content">
@@ -172,7 +172,7 @@
 						    <div class="content">
 						      Actúa como un beta receptor externo de proteínas para <strong> músculos densos.</strong>
 						    </div>
-						    <a href="paginas/kdrops2.html" style="color: blue; float: right;"> <span>Continuar Leyendo>>> </span></a>
+						    <a href="../paginas/kdrops2.html" style="color: blue; float: right;"> <span>Continuar Leyendo>>> </span></a>
 						  </div>
 						</div>
 
@@ -182,7 +182,7 @@
 				  		<div class="card zoom">
 						  <div class="card-image">
 						    <figure class="image is-4by3">
-						      <img src="img/kdrops3.png" alt="Placeholder image">
+						      <img src="../img/kdrops3.png" alt="Placeholder image">
 						    </figure>
 						  </div>
 						  <div class="card-content">
@@ -191,7 +191,7 @@
 						    <div class="content">
 						     Reafirmador  natural que actúa sobre los senos haciendo un proceso de transporte... 
 						    </div>
-						    <a href="paginas/kdrops3.html" style="color: blue; float: right;"> <span>Continuar Leyendo>>> </span></a>
+						    <a href="../paginas/kdrops3.html" style="color: blue; float: right;"> <span>Continuar Leyendo>>> </span></a>
 						  </div>
 						</div>
 			  		</div>
@@ -202,7 +202,7 @@
 				  		<div class="card zoom">
 						  <div class="card-image">
 						    <figure class="image is-4by3">
-						      <img src="img/kdrops4.png" alt="Placeholder image">
+						      <img src="../img/kdrops4.png" alt="Placeholder image">
 						    </figure>
 						  </div>
 						  <div class="card-content">
@@ -211,7 +211,7 @@
 						    <div class="content">
 						     Quemador de grasa ideado para personas con una actividad física  <strong>extrema.</strong>
 						    </div>
-						    <a href="paginas/kdrops4.html" style="color: blue; float: right;"> <span>Continuar Leyendo>>> </span></a>
+						    <a href="../paginas/kdrops4.html" style="color: blue; float: right;"> <span>Continuar Leyendo>>> </span></a>
 						  </div>
 						</div>
 
@@ -221,7 +221,7 @@
 				  		<div class="card zoom">
 						  <div class="card-image">
 						    <figure class="image is-4by3">
-						      <img src="img/kdrops5.png" alt="Placeholder image">
+						      <img src="../img/kdrops5.png" alt="Placeholder image">
 						    </figure>
 						  </div>
 						  <div class="card-content">
@@ -230,7 +230,7 @@
 						    <div class="content">
 						      Diseñado para el fortalecimiento y crecimiento de  <strong> cabello y uñas.</strong>
 						    </div>
-						    <a href="paginas/kdrops5.html" style="color: blue; float: right;"> <span>Continuar Leyendo>>> </span></a>
+						    <a href="../paginas/kdrops5.html" style="color: blue; float: right;"> <span>Continuar Leyendo>>> </span></a>
 						  </div>
 						</div>
 
@@ -240,7 +240,7 @@
 				  		<div class="card zoom">
 						  <div class="card-image">
 						    <figure class="image is-4by3">
-						      <img src="img/kdrops6.png" alt="Placeholder image">
+						      <img src="../img/kdrops6.png" alt="Placeholder image">
 						    </figure>
 						  </div>
 						  <div class="card-content">
@@ -249,7 +249,7 @@
 						    <div class="content">
 						    ¡Aumenta la <strong>fuerza</strong> un 10,5% tras tomarlom y la <strong>resistencia</strong> a la fatiga en un 28%! 
 						    </div>
-						    <a href="paginas/kdrops6.html" style="color: blue; float: right;"> <span>Continuar Leyendo>>> </span></a>
+						    <a href="../paginas/kdrops6.html" style="color: blue; float: right;"> <span>Continuar Leyendo>>> </span></a>
 						  </div>
 						</div>
 			  		</div>
@@ -272,11 +272,17 @@
 				  		<div class="card-content hero">
 				  			<div class="column is-flex is-horizontal-center" style="justify-content: center;">
 					  			<figure class="image is-centered is-256x256" style="vertical-align: center; margin-bottom: 30px;">
-  									<img class="is-rounded is-centered" style="height: 256px; width: 256px;" src="img/logo.jpg">
+  									<img class="is-rounded is-centered" style="height: 256px; width: 256px;" src="../img/logo.jpg">
 								</figure>
 							</div>
 							<section class="is-dark" style="text-align: center;">
+								<h1 class=" title is-4"> <i class="fas fa-phone"></i> +57 3132488163</h1>	
 								<h5 class=" title is-5">originalkdropspro@gmail.com</h5>
+								<span>
+									<a href="https://m.facebook.com/maria.kdrops.1"> <i class="fab fa-facebook"></i></a>
+									<a href="https://api.whatsapp.com/send?phone=573132488163&text=En que lo podemos atender!" style="margin-left: 20px; margin-right:20px;"> <i class="fab fa-whatsapp"></i></a>
+									<a href="https://www.instagram.com/kdropsprooriginal/?hl=es-la"> <i class="fab fa-instagram"></i></a>
+								</span>
 							</section>
 
 				  		</div>
@@ -317,13 +323,13 @@
 				  			<div class="columns is-centered">
 				  				<div class="column is-6 is-flex is-horizontal-center" style="justify-content: center;">
 				  					<figure class="image is-centered is-64x64">
-  										<img src="img/col.png" alt="colombia">
+  										<img src="../img/col.png" alt="colombia">
 									</figure>
 				  				</div>
 				  				<div class="column is-6 is-flex is-horizontal-center" style="justify-content: center;">
 				  				
 				  					<figure class="image is-centered is-64x64" style="vertical-align: center;">
-  										<img src="img/chile.png" alt="colombia">
+  										<img src="../img/chile.png" alt="colombia">
 									</figure>
 				  				
 				  				</div>
@@ -331,17 +337,32 @@
 				  			<div class="columns">
 				  				<div class="column is-6 is-flex is-horizontal-center" style="justify-content: center;">
 				  					<figure class="image is-centered is-64x64" style="vertical-align: center;">
-  										<img src="img/ecuador.jpg" alt="colombia">
+  										<img src="../img/ecuador.jpg" alt="colombia">
 									</figure>
 				  				
 				  				</div>
 				  				<div class="column is-6 is-flex is-horizontal-center" style="justify-content: center;">
 				  					<figure class="image is-centered is-64x64" style="vertical-align: center;">
-  										<img src="img/peru.png" alt="colombia">
+  										<img src="../img/peru.png" alt="colombia">
 									</figure>
 				  				</div>
 				  			</div>
+							<div>
 							
+							<h3 class="title is-3 has-text-link" style="text-align: center;">Contactanos </h3>
+								<a href="
+								https://api.whatsapp.com/send?phone=573132488163&text=En que lo podemos atender!"> <h1 class=" title is-4" style="margin-bottom: 5px;"> <i class="fas fa-phone"></i> +57 3132488163</h1></a>
+								
+								<a href="
+								https://api.whatsapp.com/send?phone=573132488163&text=En que lo podemos atender!"><i class="fab fa-whatsapp"></i> Envíanos un mensaje de WhatsApp</a>
+															
+								<br>
+								<br>
+								<a href="
+								https://api.whatsapp.com/send?phone=593958784189&text=En%20que%20podemos%20atenderte!"> <h1 class=" title is-4" style="margin-bottom: 5px;"> <i class="fas fa-phone"></i> +593 958784189</h1></a>
+								<a href="
+								https://api.whatsapp.com/send?phone=593958784189&text=En%20que%20podemos%20atenderte!"><i class="fab fa-whatsapp"></i> Envíanos un mensaje de WhatsApp</a>
+							</div>
 				  		</div>
 					</div>
 		      
@@ -353,8 +374,8 @@
 </body>
 
 <!-- Necesario para BootStrap JQUERY -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-<script type="text/javascript" src="js/codigo.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+<script type="text/javascript" src="../js/codigo.js"></script>
 </html>

@@ -1,12 +1,12 @@
 contador = false;
-valido = ["17039595","05202945","63232524","03768900","56790237","84623478"];
+valido = ["17039595","05202945","63232524","03768900","56790237","84623478","36287301","58005462","46825973","68425793"];
 pagina = 0
-paginas = ["paginas/kdrops1.html","paginas/kdrops2.html","paginas/kdrops3.html","paginas/kdrops4.html","paginas/kdrops5.html","paginas/kdrops6.html"]
+//paginas = ["paginas/kdrops1.html","paginas/kdrops2.html","paginas/kdrops3.html","paginas/kdrops4.html","paginas/kdrops5.html","paginas/kdrops6.html"]
 
     function Valido(){
 		elemento = document.createElement("p"); // crea un elemento html
 		elemento.setAttribute("id","texto");
-		contenido = document.createTextNode("Codigo Valido, El producto es seguro y eficaz suplemento elaborado por la empresa KDROPSPROORGINAL)"); // crea un texto para un elemento.
+		contenido = document.createTextNode("Codigo Valido, El producto es seguro y eficaz suplemento elaborado por la empresa KDROPSPROORGINAL"); // crea un texto para un elemento.
 		elemento.appendChild(contenido); // agrega un texto en un elemento.
 		elemento.setAttribute("class","help is-success")
 		
@@ -15,16 +15,16 @@ paginas = ["paginas/kdrops1.html","paginas/kdrops2.html","paginas/kdrops3.html",
 		caja.setAttribute("id","consulta");
 		caja.appendChild(elemento);
 
-		boton = document.createElement("a"); // crea un elemento html
-		contenido = document.createTextNode("Ir a su producto"); // crea un texto para un elemento.
+		//boton = document.createElement("a"); // crea un elemento html
+		//contenido = document.createTextNode("Ir a su producto"); // crea un texto para un elemento.
 		
-		boton.appendChild(contenido); // agrega un texto en un elemento.
-		boton.setAttribute("class","button is-link is-medium")
-		boton.setAttribute("style","color:white;");
+		//boton.appendChild(contenido); // agrega un texto en un elemento.
+		//boton.setAttribute("class","button is-link is-medium")
+		//boton.setAttribute("style","color:white;");
 
-		boton.setAttribute("href",paginas[pagina]);
+		//boton.setAttribute("href",paginas[pagina]);
 
-		caja.appendChild(boton);
+		//caja.appendChild(boton);
 		lugar.appendChild(caja);
 
 
@@ -76,3 +76,18 @@ paginas = ["paginas/kdrops1.html","paginas/kdrops2.html","paginas/kdrops3.html",
 	   		Invalido();
 	  	}
 	};
+
+function bajar(){
+	console.log("hola");
+	$('html,body').animate({scrollTop: $("#destino").offset().top},500);
+}
+
+(function() {
+	var burger = document.querySelector('.burger');
+	var nav = document.querySelector('#'+burger.dataset.target);
+
+	burger.addEventListener('Click',function(){
+		burger.classList.toogle('is-active');
+		nav.classList.toogle('is-active');
+	});
+})(); 
