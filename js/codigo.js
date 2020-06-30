@@ -1,5 +1,6 @@
 contador = false;
-valido = ["17039595","05202945","63232524","03768900","56790237","84623478","36287301","58005462","46825973","68425793"];
+color = false;
+valido = ["17039595","05202945","63232524","03768900","56790237","84623478","36287301","58005462","46825973","68425793","14205462","58075459","58075464","58075460"];
 pagina = 0
 //paginas = ["paginas/kdrops1.html","paginas/kdrops2.html","paginas/kdrops3.html","paginas/kdrops4.html","paginas/kdrops5.html","paginas/kdrops6.html"]
 
@@ -80,14 +81,27 @@ pagina = 0
 function bajar(){
 	console.log("hola");
 	$('html,body').animate({scrollTop: $("#destino").offset().top},500);
-}
+};
+function cambio(){
 
-(function() {
+  if (color){
+  document.getElementById('body').style.backgroundImage='url(fondo2.jpg)';
+  color = false;
+  }
+  else{
+    
+  color = true;
+  document.getElementById('body').style.backgroundImage='url(../img/fondo2.jpg)';
+  }
+};
+
+(function(){
+    console.log("hole");
 	var burger = document.querySelector('.burger');
 	var nav = document.querySelector('#'+burger.dataset.target);
 
-	burger.addEventListener('Click',function(){
-		burger.classList.toogle('is-active');
-		nav.classList.toogle('is-active');
-	});
+	burger.addEventListener('click', function(){
+	burger.classList.toggle('is-active');
+	nav.classList.toggle('is-active');
+    });
 })(); 
